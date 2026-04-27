@@ -379,8 +379,6 @@ class RegularPayments(BaseStorage):
         """
         today_md = datetime.date.today().strftime("%d")
         today = str(datetime.date.today())
-        print(today,today_md)
-        
 
         for rec in self.records:
             if (rec.month_day == today_md 
