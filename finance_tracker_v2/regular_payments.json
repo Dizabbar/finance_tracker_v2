@@ -1,0 +1,34 @@
+﻿[
+    {
+        "amount": 10000,
+        "month_day": "27",
+        "operation_type": "regular_income",
+        "description": "Сдача комнаты в аренду",
+        "idx": 0,
+        "last_processed": "2026-06-27"
+    },
+    {
+        "amount": 5000,
+        "month_day": "20",
+        "operation_type": "regular_expense",
+        "description": "Комуналка",
+        "idx": 1,
+        "last_processed": "None"
+    },
+    {
+        "amount": 5000,
+        "month_day": "27",
+        "operation_type": "regular_income",
+        "description": "Стипендия",
+        "idx": 2,
+        "last_processed": "2026-06-27"
+    },
+    {
+        "amount": 40000,
+        "month_day": "15",
+        "operation_type": "regular_income",
+        "description": "Зарплата",
+        "idx": 3,
+        "last_processed": null
+    }
+]

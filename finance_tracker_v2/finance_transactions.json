@@ -1,0 +1,72 @@
+[
+    {
+        "amount": 500,
+        "date": "2026-06-27",
+        "operation_type": "income",
+        "description": "Чаевые",
+        "idx": 0
+    },
+    {
+        "amount": 2999,
+        "date": "2026-06-27",
+        "operation_type": "expense",
+        "description": "Продукты",
+        "idx": 1
+    },
+    {
+        "amount": 300,
+        "date": "2026-06-27",
+        "operation_type": "expense",
+        "description": "Такси",
+        "idx": 2
+    },
+    {
+        "amount": 200,
+        "date": "2026-06-27",
+        "operation_type": "transfer_to_savings",
+        "description": "С чаевых",
+        "idx": 3
+    },
+    {
+        "amount": 1000,
+        "date": "2026-06-27",
+        "operation_type": "transfer_from_savings",
+        "description": "ЧП",
+        "idx": 4
+    },
+    {
+        "amount": 10000,
+        "date": "2026-06-27",
+        "operation_type": "regular_income",
+        "description": "Сдача комнаты в аренду",
+        "idx": 2
+    },
+    {
+        "amount": 5000,
+        "date": "2026-06-27",
+        "operation_type": "regular_income",
+        "description": "Стипендия",
+        "idx": 3
+    },
+    {
+        "amount": 300,
+        "date": "2026-06-27",
+        "operation_type": "income",
+        "description": "Чай",
+        "idx": 7
+    },
+    {
+        "amount": 900,
+        "date": "2026-06-27",
+        "operation_type": "income",
+        "description": "Долг вернули",
+        "idx": 8
+    },
+    {
+        "amount": 200,
+        "date": "2026-06-27",
+        "operation_type": "expense",
+        "description": "Проездной",
+        "idx": 9
+    }
+]

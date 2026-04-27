@@ -1,0 +1,23 @@
+[
+    {
+        "amount": 200,
+        "date": "2026-06-27",
+        "operation_type": "transfer_from_finance",
+        "description": "С чаевых",
+        "idx": 0
+    },
+    {
+        "amount": 2000,
+        "date": "2026-06-27",
+        "operation_type": "deposit",
+        "description": "Вернули долг",
+        "idx": 1
+    },
+    {
+        "amount": 1000,
+        "date": "2026-06-27",
+        "operation_type": "transfer_to_finance",
+        "description": "ЧП",
+        "idx": 2
+    }
+]
