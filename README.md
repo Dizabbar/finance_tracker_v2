@@ -1,5 +1,17 @@
-<div align="center">
-<pre>
+Понял, нужно исправить отображение ASCII-графика и структуры проекта. Вместо `<pre>` внутри `<div>` используем стандартный блок кода с тройными кавычками и указанием языка `text` — это гарантирует моноширинный шрифт и правильные отступы. Также структуру папок оформим как блок кода. Вот исправленный вариант.
+
+```markdown
+<h1 align="center">Финансовый трекер — версия 2</h1>
+
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"/></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/статус-активно-success" alt="Статус"/></a>
+</p>
+
+---
+
+```text
   Баланс (₽)
      ↑
  12k │                             ████████
@@ -13,16 +25,7 @@
 
   ◈ Транзакций: 1 247          ◈ Регулярных платежей: активны
   ◈ Сбережений: 34 500 ₽       ◈ Последняя операция: сегодня, 09:41
-</pre>
-</div>
-
-<h1 align="center">Финансовый трекер — версия 2</h1>
-
-<p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"/></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/статус-активно-success" alt="Статус"/></a>
-</p>
+```
 
 ---
 
@@ -46,17 +49,19 @@
 ---
 
 ## Структура проекта
+
+```text
 finance_tracker_v2/
-├── personal_finance_tracker.py # Точка входа и интерфейс командной строки
-├── models.py # Бизнес-логика и хранилища
-├── finance_transactions.json # Доходы / расходы
-├── savings_transactions.json # Операции с накоплениями
-├── regular_payments.json # Повторяющиеся платежи
+├── personal_finance_tracker.py   # Точка входа и интерфейс командной строки
+├── models.py                     # Бизнес-логика и хранилища
+├── finance_transactions.json     # Доходы / расходы
+├── savings_transactions.json     # Операции с накоплениями
+├── regular_payments.json         # Повторяющиеся платежи
 ├── .gitignore
 └── README.md
+```
 
 ---
-
 
 ## Возможности
 
@@ -101,23 +106,62 @@ finance_tracker_v2/
 git clone https://github.com/Dizabbar/finance_tracker_v2.git
 cd finance_tracker_v2
 python personal_finance_tracker.py
+```
+
 При первом запуске создаются пустые JSON-файлы для хранения данных.
 
-Скриншоты
-<p align="center"> <img src="assets/main_menu.png" width="500" alt="Главное меню приложения"/> <br/> <em>Главное меню программы (пример)</em> </p><p align="center"> <img src="assets/statistics.png" width="500" alt="Раздел статистики"/> <br/> <em>Визуализация статистики расходов за месяц</em> </p>
-Рекомендация: замените изображения на собственные скриншоты, поместив их в папку assets/.
+---
 
-Планы на будущее
-Миграция на SQLite / PostgreSQL – повышение надёжности и поддержка сложной аналитики.
+## Скриншоты
 
-REST API – возможность интеграции с мобильными и веб-приложениями.
+<p align="center">
+  <img src="assets/main_menu.png" width="500" alt="Главное меню приложения"/>
+  <br/>
+  <em>Главное меню программы (пример)</em>
+</p>
 
-Веб-интерфейс – простой фронтенд, работающий поверх API.
+<p align="center">
+  <img src="assets/statistics.png" width="500" alt="Раздел статистики"/>
+  <br/>
+  <em>Визуализация статистики расходов за месяц</em>
+</p>
 
-Экспорт отчётов – генерация CSV / PDF прямо из консоли.
+> **Рекомендация:** замените изображения на собственные скриншоты, поместив их в папку `assets/`.
 
-Лицензия
-Проект распространяется под лицензией MIT. Подробнее см. файл LICENSE.
+---
 
-<p align="center"> <br/> <strong>«Важно не то, сколько вы зарабатываете, а то, сколько у вас остаётся»</strong><br/> <sub>— Роберт Кийосаки</sub> </p><p align="center"> <br/> Разработка: <strong>Dizabbar</strong><br/> <a href="https://github.com/Dizabbar">GitHub</a> </p>
-<p align="center"> <sub>© 2026 — finance_tracker_v2</sub> </p> ```
+## Планы на будущее
+
+- **Миграция на SQLite / PostgreSQL** – повышение надёжности и поддержка сложной аналитики.
+- **REST API** – возможность интеграции с мобильными и веб-приложениями.
+- **Веб-интерфейс** – простой фронтенд, работающий поверх API.
+- **Экспорт отчётов** – генерация CSV / PDF прямо из консоли.
+
+---
+
+## Лицензия
+
+Проект распространяется под лицензией **MIT**. Подробнее см. файл [LICENSE](LICENSE).
+
+---
+
+<p align="center">
+  <br/>
+  <strong>«Важно не то, сколько вы зарабатываете, а то, сколько у вас остаётся»</strong><br/>
+  <sub>— Роберт Кийосаки</sub>
+</p>
+
+<p align="center">
+  <br/>
+  Разработка: <strong>Dizabbar</strong><br/>
+  <a href="https://github.com/Dizabbar">GitHub</a>
+</p>
+
+---
+
+<p align="center">
+  <sub>© 2026 — finance_tracker_v2</sub>
+</p>
+```
+
+Теперь ASCII-график в блоке ```text гарантирует сохранение всех отступов и моноширинного шрифта, а структура проекта в таком же блоке отобразится как дерево каталогов. Весь документ готов для вставки в `README.md`.
