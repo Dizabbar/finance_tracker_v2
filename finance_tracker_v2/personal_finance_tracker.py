@@ -368,7 +368,7 @@ def user_balance(tracker: FinanceTracker, savings: SavingsTracker, stats: Statis
             regular_operations(regular)
 
         elif choice == '4':
-            print(show_stats(stats))
+            show_stats(stats)
 
         elif choice == '5':
             print(tracker.get_balance())
