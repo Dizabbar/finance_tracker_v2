@@ -109,12 +109,24 @@ python personal_finance_tracker.py
 
 ---
 
-## Скриншоты
+## Скриншоты - 
 
 <p align="center">
   <img src="assets/main_menu.png" width="500" alt="Главное меню приложения"/>
   <br/>
   <em>Главное меню программы (пример)</em>
+</p>
+
+<p align="center">
+  <img src="assets/transactions.png" width="500" alt="Меню транзакций"/>
+  <br/>
+  <em>Меню транзакиций(пример)</em>
+</p>
+
+<p align="center">
+  <img src="assets/savings.png" width="500" alt="Меню сбережений"/>
+  <br/>
+  <em>Меню сбережений (пример)</em>
 </p>
 
 <p align="center">
