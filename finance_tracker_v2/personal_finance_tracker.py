@@ -353,7 +353,7 @@ def user_balance(tracker: FinanceTracker, savings: SavingsTracker, stats: Statis
         print('5.Баланс')
         print('0:Выход')
 
-        choice = input('Выберите пункт из меню 0-3: ')
+        choice = input('Выберите пункт из меню 0-5: ')
 
         if choice == '0': 
             break
