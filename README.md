@@ -48,10 +48,6 @@ finance_tracker_v2/
 ├── .gitignore
 └── README.md
 
-text
-
----
-
 ## Возможности
 
 ### 1. Транзакции
@@ -91,7 +87,7 @@ text
 
 ## Быстрый старт
 
-```bash
+
 git clone https://github.com/Dizabbar/finance_tracker_v2.git
 cd finance_tracker_v2
 python personal_finance_tracker.py
@@ -111,9 +107,8 @@ REST API – возможность интеграции с мобильными
 
 Экспорт отчётов – генерация CSV / PDF прямо из консоли.
 
-</details>
 Лицензия
 Проект распространяется под лицензией MIT. Подробнее см. файл LICENSE.
 
 <p align="center"> <br/> <strong>«Дисциплина в финансах — первый шаг к свободе»</strong><br/> <sub>автор неизвестен</sub> </p><p align="center"> <br/> Разработка: <strong>Dizabbar</strong><br/> <a href="https://github.com/Dizabbar">GitHub</a> </p>
-<p align="center"> <sub>© 2026 — finance_tracker_v2</sub> </p> ```
+<p align="center"> <sub>© 2026 — finance_tracker_v2</sub> </p>
